@@ -1,0 +1,966 @@
+<DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+	
+<Link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons"/>
+      <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="portal.css">
+<title>ken_de_bash web</title>
+</head>
+<body>
+<header>
+    <div class="header-container">
+<div class="contact">
+    <span style="border-right: 2px solid white; margin-right: 10px; padding-right: 10px; text-decoration: none;">+23412000000</span><span>registrar@unilorin.edu.ng</span>
+</div>
+<section id="form-container">
+<div class="form">
+<form action="">
+    <input type="text" class="type"> <i class="fa fa-search"></i>
+</form>
+
+
+</div>
+<div class="icon">
+<i class="fa fa-facebook" style="color:aquamarine;"></i>
+<i class="fa fa-youtube-play" style="color: red;"></i> 
+<i class="fa fa-twitter" style="color: cyan;"></i> 
+<i class="fa fa-camera-retro" style="color: hsl(13, 100%, 72%);"></i>
+<i class="fa fa-institution" style="color:hsl(353, 100%, 62%) ;" id="adjust"></i>
+<i class="fa fa-linkedin" style="color: aqua;" id="adjust"></i>
+
+</div>
+</section></div>
+<div class="logo">
+    <div class="logo-text">Since 1995</div>
+    <section id="logo">
+<div class="logo-picture" style="width:80px ; margin-right:5px">
+    <img src="logo.png" width="120px" height="70px" alt="">
+</div>
+<div class="logo-picture"><h3>UNIVERSITY</h3><h3>OF ILORIN</h3>
+<p><em>Better by far</em></p></div>
+    </section>
+    <span class="open"><img src="icon-hamburger.svg" id="openav" onclick="openav()"></span>
+    <div class="list-menu" id="mySidebar">
+        <span class="close"><img src="icon-close.svg" id="closenav" onclick="closenav()"></span>
+<ul>
+<li><a href="#">Research</a></li><li><a href="#">Publications</a></li><li class="dropdown"><a href="#" class="dropbtn" onclick="clicFunction()">Portals <i class="fa fa-angle-down" id="right" ></i></a>
+<div class="dropdwn-content" id="function">
+<a href="#">Undergraduate</a><a href="#">Postgraduate</a>
+<a href="#">Ilorin Business School</a><a href="#">Institute of Education</a>
+<a href="#">Centre For open and Distance learning</a><a href="#">Sasakawa</a>
+<a href="#">Remedial</a><a href="#">Unilorin JUPEB</a><a href="#">Annual Report</a>
+
+</div>
+</li>
+<li><a href="#">Inaugurals</a></li>
+<li class="dropdown"><a href="#" class="dropbtn" onclick="fifth()">Student <i class="fa fa-angle-down" id="right"></i></a>
+<div class="dropdwn-content" id="fifth">
+<a href="#">Course information</a><a href="#">E-learning Portal</a><a href="#">E-mail</a><a href="#">Financials</a>
+<a href="#">Schedule of Classes</a><a href="#">Student Hostel</a><a href="#">Student Portal</a>
+
+
+
+</div>
+</li>
+<li class="dropdown"><a href="#" class="dropbtn" onclick="fourth()">Calendar <i class="fa fa-angle-down" id="right"></i></a>
+<div class="dropdwn-content" id="fourth">
+<a href="#">Academic Calenar</a><a href="#">Admission Calendar</a><a href="#">Event calendar</a>
+<a href="#">Recruitment Calendar</a><a href="#">Event Calendar</a>
+
+
+</div>
+
+</li><li class="dropdown"><a href="#" class="dropbtn" onclick="first()">Career <i class="fa fa-angle-down" id="right"></i></a>
+<div class="dropdwn-content" id="first">
+
+    <a href="#">Recruitment</a><a href="#">Vacancies</a>
+</div>
+</li><li class="dropdown"><a href="#" class="dropbtn" onclick="second()">Donations <i class="fa fa-angle-down" id="right"></i></a>
+<div class="dropdwn-content" id="second" >
+
+    <a href="#">Advancement Fundraising</a>
+    <a href="#">Donor Form</a><a href="#">terms and Conditions</a><a href="#">Types of Gift</a>
+</div>
+
+
+</li><li><a href="#">Conferences</a></li>
+<li class="dropdown"><a href="#" class="dropbtn" onclick="third()" id="right">Global Locations <i class="fa fa-angle-down"></i></a>
+    <div class="dropdwn-content" id="third">
+<a href="#">Kwara state, Ilorin</a>
+<a href="#">MOUs</a>
+    </div>
+</li>
+<li><a href="#">News</a></li>
+
+
+
+
+</ul>
+
+</div>
+
+
+
+</div>
+
+<div class="drop" id="stick-nav">
+    <span class="show1"><img src="icon-hamburger.svg" id="openav" onclick="showt()"></span>
+<div class="sidebar" id="sidemenu">
+    <span class="hiddeen"><img src="icon-close.svg"  onclick="hiddent()"></span>
+    <div class="just">
+<ul>
+<li class=""><a href="#">Home</a></li>
+
+
+<li class="dropdown"><a href="#" class="dropbtn" onclick="jan()">About Us <i class="fa fa-angle-down"></i> </a>
+    <div class="dropdwn-content" id="jan">
+<a href="#">History</a>
+<a href="#">Leadership</a>
+<a href="#">Vision and Mission</a>
+<a href="#">Location</a>
+<a href="#">Our core Values</a>
+<a href="#">Ranking</a>
+<a href="#">Awards</a>
+
+    </div>
+
+</li>
+
+
+
+
+
+<li class="dropdown"><a href="#" class="dropbtn" onclick="feb()">Academics <i class="fa fa-angle-down"></i> </a>
+    <div class="dropdwn-content" id="feb">
+<a href="#">College of Health sciences</a>
+<a href="#">Faculties</a>
+<a href="#">Departments</a>
+<a href="#">Main Library</a>
+<a href="#">Remedial</a>
+<a href="#">Veterinary Teaching hospital</a>
+
+
+    </div>
+
+</li>
+
+
+<li class="dropdown"><a href="#">Library </a>
+
+
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropbtn" onclick="march()">TETfund <i class="fa fa-angle-down"></i></a>
+    <div class="dropdwn-content" id="march">
+<a href="#">TETfund web</a>
+<a href="#">Annual Intervention</a>
+<a href="#">Special Intervention</a>
+
+    </div>
+
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropbtn" onclick="april()">Admission <i class="fa fa-angle-down"></i></a>
+    <div class="dropdwn-content" id="april">
+<a href="#">Undergraduate</a>
+<a href="#">Postgraduate</a>
+<a href="#">programmes</a>
+
+
+    </div>
+
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropbtn" onclick="may()">Centres and Institutes<i class="fa fa-angle-down"></i> </a>
+    <div class="dropdwn-content" id="may">
+<a href="#">Centre for affiliated instituions</a>
+<a href="#">Centre for ilorin studies</a>
+<a href="#">centre for international Education</a>
+<a href="#">Centre for open and Distance Learning</a>
+<a href="#">Centre for peace and Srategies Studies</a>
+<a href="#">Centre for Research Development & in-house training</a>
+<a href="#">Central Research Laboratory</a>
+<a href="#">Community Base Experience and Service (COBES Clinical)</a>
+<a href="#">Ilorin Business School</a>
+<a href="#">Institue of Medical Research and Training</a>
+<a href="#">Laboratory to product centre (LABTOP)</a>
+<a href="#">Linguistics immersion Centre</a>
+<a href="#">National centre for hydropower Research and Development (NACHRED)</a>
+<a href="#">NWBRCBNET-Nc</a>
+<a href="#">Postgraduate School</a>
+<a href="#">Quality Assurance Unit</a><a href="#">Student industrial Workshop Experience Scheme (SIWES) unit</a>
+<a href="#">Sugar Research Institute</a>
+<a href="#">Technical and Entrepreneurship centre</a>
+<a href="#">Unilorin Archives &Documetation centre</a>
+
+    </div>
+
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropbtn" onclick="june()">Enterprises <i class="fa fa-angle-down"></i></a>
+    <div class="dropdwn-content" id="june">
+<a href="#">Bookshop</a>
+<a href="#">Hostel</a>
+<a href="#">Main Auditorium</a>
+<a href="#">Printing Press</a>
+<a href="#">Researchers Lodge</a>
+<a href="#">Store</a>
+<a href="#">Sport Center</a>
+<a href="#">Unilorin Dam</a>
+<a href="#">Unilorin Water</a>
+<a href="#">Unilorin Zoo</a>
+
+
+    </div>
+
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropbtn" onclick="july()">Support Services <i class="fa fa-angle-down"></i></a>
+    <div class="dropdwn-content" id="july">
+<a href="#">Academic planning</a>
+<a href="#">Jupeb</a>
+<a href="#">Bursary</a>
+<a href="#">Computer Services and information Technology</a>
+<a href="#">Counselling & Phychological Services</a>
+<a href="#">Counselling and Human Development Centre</a>
+<a href="#">Clinical Skills and Simulaton Laboratory</a>
+<a href="#">Directorate of cooporate Affairs </a>
+<a href="#">General Studies Unit</a>
+<a href="#">Staff</a>
+<a href="#">Help Desk</a>
+<a href="#">Security Unit</a>
+<a href="#">Medical Education Resources Unit (MERU)</a>
+<a href="#">Nigerian Network  for Elicbs</a>
+<a href="#">Physical Planning</a>
+<a href="#">Registry</a>
+<a href="#">Safey Alert</a>
+<a href="#">Student Affairs Unit</a><a href="#">Institute of Education Teaching practice</a>
+<a href="#">Unilorin Consultancy Services Centre</a>
+<a href="#">Unilorin advancemeent and Alumni Relation</a><a href="#">Works</a>
+
+
+    </div>
+
+</li>
+
+
+<li class="dropdown"><a href="#" class="dropbtn" onclick="aug()">Transcript and Alumni <i class="fa fa-angle-down"></i></a>
+    <div class="dropdwn-content" id="aug">
+ <a href="#">About Us </a>
+ <a href="#">Awards</a>
+ <a href="#">Benefits & Resources</a>
+ <a href="#">Events</a><a href="">Leadership</a>
+<a href="#">online Community</a><a href="#">Projects</a>
+<a href="#">Academic Transcript-Undergraduate</a> 
+
+
+    </div>
+
+</li>
+
+
+<li><a href="#">Bulletin</a>
+    
+
+
+
+
+</li>
+
+
+
+</ul>
+    </div>
+
+    
+</div>
+
+
+
+
+</div>
+
+
+
+
+</header>
+<main>
+<div class="slideshow">
+<img src="first.jpeg" alt="" id="slides">
+
+
+</div>
+<div class="pioneer">
+
+    PIONEERING ACADEMIC STABILITY AND EXCELLENCE
+</div>
+<div class="transform">
+<div class="trans">
+
+APPLICATION FORM FOR 2022/2023 JUPEB PROGRAMME IS ON NOW, 
+
+</div>
+
+
+
+</div>
+
+
+
+
+<div class="links">
+    <div style="width: 80%; justify-content:center; text-align: left; margin-top:20px ;"><h2> <a href="#" style="text-decoration-color: #11224D;;"> QUICK</a><span style="color:pink ;" >LINKS</span></h2></div>
+<div class="link1-container">
+<div class="link1">
+<div class="nuc"><i class="fa fa-pencil"></i></div><div class="nuc"><label><h3>NUC</h3><p>NUC</p></label></div>
+
+
+</div>
+
+<div class="link1">
+<div class="nuc"><i class="fa fa-file-o"></i></div><div class="nuc"><label><h3>Ministry of Education</h3><p>NUC</p></label></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="link1-container">
+<div class="link1">
+<div class="nuc"><i class="fa fa-pencil"></i></div><div class="nuc"><label><h3> E-MAIL</h3><p>E-MAIL</p></label></div>
+
+
+</div>
+
+<div class="link1">
+<div class="nuc"><i class="fa fa-file-o"></i></div><div class="nuc"><label><h3>E-JOURNALS</h3><p>E-JOURNALS</p></label></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+<div class="link1-container">
+<div class="link1">
+<div class="nuc"><I class="fa fa-calendar"></I></div><div class="nuc"><label><h3>ACALENDAR CALENDAR</h3><P>ACADEMIC CALEDAR</P></label></div>
+
+
+</div>
+
+<div class="link1">
+<div class="nuc"><i class="fa fa-file-o"></i></div><div class="nuc"><label><h3>E-NOTICE</h3><p>E-NOTICE</p></label></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="link1-container">
+    <div class="link1">
+    <div class="nuc"><i class="fa fa-pencil"></i></div><div class="nuc"><label><h3>ANNUAL REPORT</h3><p>ANNUAL REPORT</p></label></div>
+    
+    
+    </div>
+    
+    <div class="link1">
+    <div class="nuc"><i class="fa fa-file-o"></i></div><div class="nuc"><label><h3>BULLETIN</h3><p>BULLETIN</p></label></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+
+
+
+
+    <div class="link1-container">
+        <div class="link1" style="height:160px ;">
+        <div class="nuc"><i class="fa fa-pencil"></i></div><div class="nuc"><label><h3>CALL FOR APPLICATIONS</h3><p>CENTRE DEVELOPMENT</p></label></div>
+        
+        
+        </div>
+        
+        <div class="link1">
+        <div class="nuc"><i class="fa fa-file-o"></i></div><div class="nuc"><label><h3>ACADEMIC PROGRAMMES</h3><p>NUC</p></label></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+        
+        
+
+</div>
+
+<div class="news">
+    
+    <div style="text-align: center;">NEWS</div>
+<div class="news-container">
+<div class="box-container">
+<img src="first.jpeg" alt="" height="200px" width="200px">
+<h3><a href="#">Host</a> communities</h3>
+<p>We'll always support our host communities-VC. The Vice-chancellor of the University of ilorin, Prof. Sulyman Age</p>
+<br> <button>READ MORE</button>
+
+
+</div>
+
+<div class="box-container">
+
+
+
+    <img src="third.jpeg" alt="" height="200px" width="200px">
+
+    <h3><a href="#">JUPEB</a></h3>
+    <p>JUPEB:Monitor your wards, Abdulkareem tasks parents.The vice-chancellor of the university of ilorin, Prof. Sulyman</p><br>
+    <button>READ MORE</button>
+</div>
+<div class="box-container">
+
+<img src="second.jpeg" alt="" height="200px" width="200px">
+<h3><a href="#">Saka</a>kawa Admission</h3>
+
+<p>ADVERTISEMENT FOR ADMISSION INTO SAKAKAWA AFRICA FUND FOR EXTENSION EDUCATION(SAFE) B.sc AGRICULTURAL EXTENSION AND</p>
+<br> <button>READ MORE</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<div class="others">
+
+ <div style="text-align:  center; margin-top: 50px;">Our other courses</div>
+ <div class="pat-container">
+<div class="others-container">
+    <div class="other-logo">
+<div class="date">since 1975</div>
+
+<div class="other-pic"><img src="logo.png" alt="" height="30px" width="50px"></div><div class="other-pic"><label><h4>UNIVERSITY</h4><p>OF LORIN</p></label></div> <div class="better">Better by far</div>
+
+    </div><br>
+<div class="component"><p>school of PreliminaryStudies(FuFu Campus)</p>
+<br><button>READ MORE</button></div>
+
+
+
+
+
+
+
+</div>
+
+<div class="others-container">
+    <div class="other-logo">
+<div class="date">since 1975</div>
+
+<div class="other-pic"><img src="logo.png" alt="" height="35px" width="50px"></div><div class="other-pic"><label><h4>UNIVERSITY</h4><p>OF LORIN</p></label>
+
+</div><div class="better">Better by far</div>
+
+    </div><br>
+<div class="component"><p><h2>JUPEB</h2></p>
+<br><button>READ MORE</button></div>
+
+
+
+
+
+
+
+</div>
+
+<div class="others-container">
+    <div class="other-logo">
+<div class="date">since 1975</div>
+
+<div class="other-pic"><img src="logo.png" alt="" height="30px" width="50px"></div><div class="other-pic"><label><h4>UNIVERSITY</h4><p>OF LORIN</p></label></div><div class="better">Better by far</div>
+
+    </div><br>
+<div class="component"><p>Universiy Veterinary teaching Hospital</p>
+<br><button>READ MORE</button></div>
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+<div class="courses">
+    <div class="numberco"><h4>Some  of Our Top Courses</h4><p>There are over Two Hundred  Courses being offered in University of Ilorin</p></div>
+    <div class="department">
+<div class="faculty">
+    <h3>AGRICULTURE</h3>
+<ul>
+<li>Agricultural economics</li>
+<li>Agricultural Extension</li>
+<li>Food sciences</li>
+<li>Agronomy</li>
+
+
+
+
+</ul>
+<button>Learn more</button>
+
+</div>
+
+<div class="faculty">
+    <h3>ENGINEERING</h3>
+    <ul>
+<li>Computer Engineering</li>
+<li>Civil Engineering</li>
+<li>Chemical Engineering</li>
+<li>Electrical Engineering</li>
+
+
+    </ul>
+    <button>Learn more</button>
+</div>
+
+
+
+<div class="faculty">
+    <h3>LIFE SCIENCE</h3>
+    <ul>
+<li>optometry annd vision science</li>
+<li>Zoology</li>
+<li>Plant Biology</li>
+<li>Microbiolgy</li>
+
+
+    </ul>
+    <button>Learn more</button>
+</div>
+
+
+
+<div class="faculty">
+    <h3>ARTS</h3>
+    <ul>
+<li>Arabic</li>
+<li>English</li>
+<li>French</li>
+<li>Religion</li>
+
+
+    </ul>
+    <button>Learn more</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+<div class="updates">
+    <div class="numberco2"><p><a href="#">IMPO</a>RANT<span style="color: orange;">DATES</span></p></div>
+    <div class="department">
+
+
+<div class="faculty1">
+    <span>December 13, 2021</span><p>Continous Assessment</p>
+
+</div>
+
+<div class="faculty1">
+    <span>january 14, 2022</span><p>End of Ran SEmester Lectures</p>
+
+</div>
+
+<div class="faculty1">
+    <span>January 17, 2022</span> <p>Lecture free week for Revision</p>
+
+</div>
+
+<div class="faculty1">
+    <span>February 11, 2022</span><p>End of Rain semester Examinations</p>
+
+</div>
+
+<div class="faculty1">
+    <span>January 24 , 2022</span> <p>Commencement of Rain Semester Examination</p>
+
+</div>
+
+    </div>
+
+</div>
+<div class="background">Experience in Unilorin</div>
+<div class="university">
+    <div class="university-help">
+<ddiv class="unilorin-logo">
+
+    <div class="other-logo" style="margin-left: 0px;">
+        <div class="date">since 1975</div>
+        
+        <div class="other-pic"><img src="logo.png" alt="" height="30px" width="50px"></div><div class="other-pic"><label><h4>UNIVERSITY</h4><p>OF LORIN</p></label></div><div class="better">Better by far</div>
+        
+            </div><br>
+
+<div class="address">
+<p>Contact Us</p>
+<ul>
+<li>P.M.B. 1515, Ilorin, Nigeria</li>
+<li><i class="fa fa-phone"></i> +234816-912-2739, +234807-200-0013</li>
+<li><i class="fa fa-envelope"></i> registrar@unilorin.edu.ng</li>
+<li><i class="fa fa-support"></i> talk2@vcoffice@unilorin.edu.ng</li>
+</ul>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="unilorin-logo">
+
+<div class="unilorin-dashboard">
+<p>Useful Links</p>
+<ul>
+ <li>Academic Calendar</li>
+ <li>Leadership</li>
+ <li>Career</li>
+ <li>News and Events</li>
+
+
+
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="unilorin-dashboard">
+<p>Useful links</p>
+<ul>
+<li>Publications</li>
+<li>Feedback Form</li>
+<li>Sitemap</li>
+<li>Health and Safety</li>
+
+
+</ul>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+<div class="bulletin">
+<div class="bulletin-content">
+<p>Bulletin</p>
+<ul>
+
+
+    <li>Unilorin Bulletin !9th September, 2022</li> <li>Unilorin Bulletin 12th september, 2022</li>
+    <li>Unilorin Bulletin %th Sptember, 2022</li>
+    <li>Unilorin Bulletin 29th August, 2022</li>
+    <li><a href="#">See all</a></li>
+    
+<div class="icon-last">
+<br>
+    <span>Connect with Us</span><br>
+    
+    <i class="fa fa-facebook" style="color:aquamarine;"></i>
+    <i class="fa fa-youtube-play" style="color: red;"></i> 
+    <i class="fa fa-twitter" style="color: cyan;"></i> 
+    <i class="fa fa-camera-retro" style="color: hsl(13, 100%, 72%);"></i>
+    <i class="fa fa-institution" style="color:hsl(353, 100%, 62%) ;" id="adjust"></i>
+    <i class="fa fa-linkedin" style="color: aqua;" id="adjust"></i>
+    </div>
+</ul>
+
+
+
+
+
+</div>
+
+
+</div>
+</main>
+
+ <footer>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+ Copyright &copy; 2022 University of Ilorin<br>                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+ <span style="border-right:1px solid gray ; padding-right: 5px;">FAQ</span><span>Help Desk</span> <span style="border-left: 1px solid gray; padding-left: 5px;"> Support</span>
+
+<div style="width: 35px; height:20px; background:#11224D; justify-content:end; padding: 5px;"><a href="#" style="text-decoration: none; text-align:end; color:white"><i class="fa fa-chevron-up" style="color: white;"></i></a></div>
+
+ </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="poral.js"></script>
+</body>

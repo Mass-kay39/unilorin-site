@@ -1,0 +1,572 @@
+body{
+    background: whitesmoke;
+}
+*{
+    box-sizing: border-box; padding: 0; margin: auto; font-family: sans-serif; 
+}
+header{
+    background: #11224D;
+    
+}
+.contact{
+    width: 50%; justify-content: center; padding-top: 20px; text-align: center;color: white; 
+}
+.header-container{
+    height: 130px;
+}
+#form-container{
+    display: flex; flex-direction: row; margin-top: 40px;
+}
+.icon{
+    margin-left: 100px;
+}
+.icon i{ height: 35px; width: 25px; margin-left: 20px;
+
+}
+
+.form input[type="text"]{
+    height: 35px; width: 350px; background: white;
+}
+.form input[type="text"]{
+    height: 35px; width: 350px; background: white;
+}
+.fa.fa-search{
+    margin-left: -35px;
+}
+
+#logo{
+      font-size: 20px; height: 150px; margin-left: 150px;
+}
+.logo-picture{
+    float: left; color: blue; margin-left: 10px;
+}
+.logo-picture p{
+    font-size: 10px; color: orange; margin-left: 3px;
+}
+.logo{
+    background: white; height: 250px; 
+}
+.logo-text{
+    margin-left: 330px; color: orange;
+}
+.list-menu{
+    width: 80%; justify-content: center; 
+}
+.list-menu li{
+    float: left; font-size: 15px; padding: 15px 30px 0px 30px; list-style-type: none;
+}
+.list-menu a{
+    text-decoration: none; color:black;
+}
+.dropdown{
+    display: inline-block;
+}
+li a, .dropbtn{
+    display: inline-block; color: black; 
+}
+.dropdwn-content{
+    display: none; position: absolute; box-shadow:0px 16px 0ppx 5px aliceblue; text-align: left; min-width: 150px; font-size: 12px;  margin-top: -50px; background: gray; color: white;
+}
+.dropdwn-content a{
+    display: block; padding: 6px 0px 6px 10px;
+}
+.dropdown:hover .dropdwn-content{
+    background: gray; color: white; 
+}
+.dropdwn-content a:hover{
+    background: blue; color: white;
+}
+.show{
+    display: block;
+}
+.open{
+    visibility: hidden; display: none;
+}
+.close{
+    visibility: hidden; display: none;
+}
+.list-menu{
+    height: 300px; width: 80%;justify-content: center;
+}
+
+.drop{
+    height: 150px; overflow: hidden; 
+    background: #11224D;
+    
+}
+
+.sticky{ position: fixed; top: 0;width: 100%;
+     width: 100%; top: 0; position: fixed;
+}
+.sticky + main{
+    padding-top: 102px; 
+}
+.sidebar{
+    width: 80%; justify-content: center;
+}
+.sidebar li{
+    float: left; font-size: 15px; padding: 15px 30px 0px 30px; list-style-type: none;
+}
+.sidebar a{
+    text-decoration: none; color:white}
+
+    .sidebar a:hover{
+        background: white; color: black; border-radius: 15px; height: 20px; padding: 1px;
+    }
+    
+.show1{
+    visibility: hidden; display: none;
+}
+.hiddeen{
+    visibility: hidden; display: none;
+}
+.sidebar .dropdwn-content{
+    background: gray; color: white;
+}
+ .dropdown:hover, .dropdwn-content{
+    background: transparent; color: white;
+}
+.list-menu .dropdwn-content{
+    background: gray; color: white;
+}
+.slideshow img{
+     width: 100%;  height: 500px; 
+}
+.pioneer{
+    width: 70%;justify-content: center; 
+    background: #11224D; opacity: 0.6; font-size: 30px; height: 50px; margin-top: -250px; color: white; text-align: center; padding: 5px;
+}
+.transform{
+    width: 100%; background: red; height: 25px; margin-top: 200px;
+}
+.trans{
+    color: white; font-size: 20px; animation: slides 50s infinite; animation-timing-function: linear; width: 100%; padding: 2px;
+}
+.links{
+    height: 500px; width: 80%; justify-content: center;
+}
+.link1-container{display: flex; flex-direction: row; margin-top: 20px;
+
+}
+main{
+    overflow: hidden;
+}
+.link1{
+    width: 40%; height: 80px; background: white; box-shadow: 2px 2px 2px 2px white;
+}
+.nuc{
+    float: left; margin-left: 3px;  margin-top: 30px;
+}
+.nuc i{
+    background: #11224D; color: white; height: 50px; margin-bottom: 0px; margin-left: 1px solid yellow; width: 50px; padding: 20px;
+}
+.nuc h3{
+    font-size: 13px;
+}
+.nuc p{
+    font-size: 11px; font-weight: lighter;
+}
+.news{
+    background-color: white; margin-top: 170px;width: 100%;height: auto;
+}
+.news-container{
+    width: 80%; justify-content: center; height: auto; margin-top: 50px; display: flex; flex-direction: row;
+}
+.box-container{
+    width: 45%; padding-left: 25px; height: auto; background: whitesmoke; text-align: center; margin: 0px 10px 0px 10px;
+}
+.box-container p{
+    font-size: 10px;
+}
+.box-container h3{
+    font-size: 11px;
+}
+button{
+    width: 120px; 
+    background: #11224D;
+   padding: 5px; color: white; cursor: pointer;
+}
+button:active{
+    transform: translateY(0.5em);
+}
+.other-pic{
+    float: left; color:  #11224D;;
+}
+.component{
+    width: 150px; justify-content: left; height: auto;
+}
+.other-logo{
+    width: 200px; height: auto;
+}
+.others{
+    margin-top: 60px; background: white; height: auto;
+}
+.others-container{
+    width: 45%; height: auto; background: whitesmoke; margin: 50px 30px 0px 30px;
+}
+.pat-container{
+    width: 80%; justify-content: center; height: auto; display: flex; flex-direction: row;
+}
+.better{
+    width: 60px; font-size: 10px; margin-left: 35px; color: orange;
+}
+.date{
+    font-size: 10px; color: orange; margin-left: 90px;
+}
+.Courses{
+width: 100%; height: auto; margin-top: 100px; 
+}
+.numberco{
+    width: 100%; text-align: center; font-size: 13px;
+}
+.department{
+    width: 100%; display: grid; grid-template-columns:400px 400px; justify-content: center; margin-top: 35px; grid-gap: 20px;
+}
+.faculty{
+    min-height: 220px; width: 400px; padding: 10px; background: white; box-shadow: inset 10px 10px 15px white -10px -10px 15px  whitesmoke;
+}
+.faculty h3{
+    background: whitesmoke; width: 100%; height: 35px; font-size: 20px; padding: 2px;
+}
+.faculty li{
+list-style-type: none; padding: 10px 0px 10px 0px; font-size: 10px;
+}
+.faculty1{
+    height: 80px; width: 400px; padding: 10px; background: white; box-shadow: inset 10px 10px 15px white -10px -10px 15px whitesmoke; font-size: 13px;
+}
+.updates{
+    width: 100%; height: auto; margin-top: 100px;
+}
+.numberco2{
+    width: 100%; text-align: center; font-size: 20px;
+}
+.background{
+    height: 500px; width: 100%; background: url('first.jpeg'); background-size: cover; background-repeat: no-repeat; font-size: 25px; text-align: center; padding-top: 100px; margin-top: 60px; color: white;
+}
+.university{
+    width: 100%; height: auto; margin-top: 60px;
+}
+.university-help{
+    width: 80%; justify-content: center; height: auto;
+}
+.unilorin-logo{
+    width: 40%; height: auto; float: left; justify-content: center; margin-right: 100px;
+}
+.unilorin-logo li{
+    padding: 20px; list-style-type: none;
+}
+.unilorin-dashboard li{
+    border-bottom-style: dotted; width: 100%;
+}
+.unilorin-dashboard p{
+    padding-top: 30px; color: #11224D; font-size: 22px;
+}
+.address p{
+    color: #11224D; font-size: 22px;
+}
+.bulletin{
+    margin-top: 100px; width: 80%; 
+}
+.bulletin-content li{
+    list-style-type: none; padding: 20px; border-bottom: dotted;
+}
+.address i{
+    color: orange;
+}
+.bulletin-content{
+    width: 40%; float: left;
+}
+.icon-last i{
+    background: whitesmoke; border: 1px solid gray; width: 25px; padding: 2px; margin-right: 5px;
+}
+.bulletin-content p{
+    color: #11224D; font-size: 25px;
+}
+.icon-last span{
+    color: #11224D; padding: 15px; font-weight: bold; margin-bottom: 15px;
+}
+footer{
+    font-size: 13px; color: gray; margin-top: 80px; width: 100%; overflow: hidden;
+}
+footer span{
+    padding: 10px; text-align: center;
+}
+a{
+    cursor: pointer;
+}
+@keyframes slides{
+    0%{
+        transform: translateX(100%)
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+
+@media only screen and (max-width:500px){
+
+    header{
+        width: 100%; overflow: hidden;
+    }
+    footer{
+        overflow: hidden;
+    }
+    a{
+        cursor: pointer;
+    }
+    .header-container{
+        height: 180px; width: 100%;
+    }
+    .icon{
+        margin-left: 20px;
+    }
+    .pico{
+        float: left;
+    }
+    .blockk{
+        display: block;
+    }
+    
+.form input[type="text"]{
+    height: 35px; width: 240px; margin-left: 10px; background: white;
+}
+.form{
+    margin-top: 0px;
+}
+.background{
+    height: 300px;
+}
+.contact{
+    width: 100%;text-align: center; 
+}
+
+
+.icon i{ height: 35px; width: 15px; margin-left: 8px;
+}
+.logo{
+    height: 70px;
+}
+#logo{
+    margin-left: 5px; height: 100px;
+}
+.logo-text{
+    margin-left: 155px; font-size: 10px;
+}
+.drop{
+    height: 70px;
+}
+#logo h3{
+    font-size: 14px;
+}
+#logo img{
+    width: 120px; height: 50px;
+}
+.open{
+    visibility: visible; display: block; float: right; margin-top: -95px; margin-right: 70px;
+}
+#openav{
+    background: black;
+}
+.list-menu li{
+    display: block; float: none; color: black; border-bottom: 1px solid whitesmoke; font-size: 13px;
+}
+.list-menu{
+    min-height: 100%; width: 0; position: fixed; transition: 0.5s; z-index: 1; background: white; overflow-y: hidden; margin-top: -50px;
+}
+
+.close{
+    visibility: visible; display: block; margin-right: 30px; position: absolute; right: 0;
+}
+#closenav{
+    background: black;
+}
+.dropdwn-content{
+    background-color: gray; color: white;
+}
+.dropdown:hover .dropdwn-content{
+    background: gray;
+}
+
+.sidebar{
+   min-height: 100%; width: 0; position: fixed; transition: 0.5s; z-index: 1; 
+   background: #11224D; overflow-y: hidden; color: black; 
+}
+
+.show1{
+    visibility: visible; display: block; float: right;  margin-top: 15px;
+}
+
+.hiddeen{
+    visibility: visible; display: block; float: right; margin-right: 20px; position: absolute; top: 0; right: 0;
+}
+.just{
+    width: 80%; justify-content: center; text-align: left; background: transparent; color: black; margin-top: 50px;
+}
+.sidebar li{
+    float: none; display: block; color: black; border-bottom: 1px solid whitesmoke; font-size: 13px;
+}
+.sidebar a{
+    color: black;
+}
+.just ul{
+    background: white; color: black; min-height: 110%;
+}
+
+.slideshow img{
+    vertical-align: middle; width: 100%; position: relative; height: 350px;
+}
+.pioneer{
+    width: 100%;justify-content: center; 
+    background: #11224D; opacity: 0.6; font-size: 12px; height: 20px; margin-top: -200px; color: white;  padding: 5px;
+}
+
+.transform{
+    width: 100%; background: red; height: 25px; margin-top: 176px; padding: 5px;
+}
+.trans{
+    color: white; font-size: 10px; animation: slides 45s infinite; animation-timing-function: linear; width: 100%; padding: 2px; height: 14px;
+}
+main{
+    overflow: hidden;
+}
+
+.link1{
+    width: 90%; height: 100px; background: white; box-shadow: 2px 2px 2px 2px white; margin-top: 50px; justify-content: center;
+}
+.nuc{
+    display: flex;  margin-top: 30px; flex-direction: row; margin-right: 60px;
+}
+.NUC P{
+    font-size: 9px; font-weight: lighter;
+}
+.nuc h3{
+    font-size: 10px;
+}
+.nuc i{
+    background: #11224D; color: white; height: 50px; margin-bottom: 0px; margin-left: 1px solid yellow; width: 50px; padding: 20px;
+}
+.links{
+    width: 100%; height: auto;
+}
+.link1-container{display: block; margin-top: 20px;
+}
+
+.news{
+    background-color: white; margin-top: 50px;width: 100%;height: auto;
+}
+.news-container{
+    width: 100%; height: auto; margin-top: 50px; display: block; background: white;
+}
+.box-container{
+    width: 100%; padding-left: 25px; height: auto; background: whitesmoke; text-align: left; margin: 20px 0px 20px 0px; justify-content: center; padding: 20px;
+}
+.box-container img{
+    width: 90%;
+}
+.box-container p{
+    font-size: 10px;
+}
+.box-container h3{
+    font-size: 11px;
+}
+.other-pic{
+    float: left;
+}
+
+.other-pic{
+    float: left; color:  #11224D;;
+}
+.component{
+    width: 150px; justify-content: left; height: auto;
+}
+.other-logo{
+    width: 200px; height: auto;
+}
+.others{
+    margin-top: 60px; background: white; height: auto;
+}
+.others-container{
+    width: 100%; height: auto; background: whitesmoke; margin-top: 50px;   display: block; margin-left: 0px; justify-content: center;
+}
+.pat-container{
+    width: 100%;  height: auto; display: block; 
+}
+.better{
+    width: 60px; font-size: 10px; margin-left: 35px; color: orange;
+}
+.date{
+    font-size: 10px; color: orange; margin-left: 90px;
+}
+
+.Courses{
+    width: 100%; height: auto; margin-top: 100px;  background: white;
+    }
+    .numberco{
+        width: 90%; text-align: center; font-size: 13px; justify-content: center; margin-top: 40px;
+    }
+    .department{
+        width: 100%; display: block;   margin-top: 35px; background: whitesmoke;
+    }
+    .faculty{
+        min-height: 220px; width: 90%; padding: 10px; background: white; box-shadow: inset 10px 10px 15px white -10px -10px 15px  whitesmoke; justify-content: center; display: block; margin-top: 20px;
+    }
+    .faculty h3{
+        background: whitesmoke; width: 100%; height: 35px; font-size: 20px; padding: 2px;
+    }
+    .faculty li{
+    list-style-type: none; padding: 10px 0px 10px 0px; font-size: 10px;
+    }
+    
+.faculty1{
+    height: 80px; width: 98%; padding: 10px; background: white; box-shadow: inset 10px 10px 15px white -10px -10px 15px whitesmoke; font-size: 13px; justify-content: center; display: block; margin-top: 20px;
+}
+.updates{
+    width: 100%; height: auto; margin-top: 100px;
+}
+.numberco2{
+    width: 100%; text-align: center; font-size: 20px;
+
+}
+.unilorin-logo{
+    width: 100%; display: block; float: none; font-size: 15px; justify-content: center;
+}
+.university-help{
+    width: 100%; justify-content: center;
+}
+.address li{
+    padding: 10px; font-weight: lighter; color: gray;
+}
+.address p{
+    font-size: 20px; padding: 10px;
+}
+.unilorin-logo p{
+    padding: 20px 0px 10px 10px;
+}
+
+.bulletin{
+    margin-top: 100px; width: 80%; 
+}
+.bulletin-content li{
+    list-style-type: none; padding: 10px; border-bottom: dotted;
+}
+.address i{
+    color: orange;
+}
+.bulletin-content{
+    width: 100%; 
+}
+.bulletin{
+    margin-top: 50px; width: 100%; 
+}
+.bulletin-content li{
+    list-style-type: none; padding: 10px; border-bottom: dotted; padding: 20px;
+}
+.address i{
+    color: orange;
+}
+.bulletin-content p{
+  color: #11224D; padding: 20px; font-size: 25px;
+}
+
+}
